@@ -14,6 +14,77 @@
 <body>
   
 
+  <!-- SECTION 1 - MAIN NAVBAR -->  
+
+  <section class="navbar navbar-expand-lg navbar-dark bg-dark  sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/iconbgdark-removebg-preview.png"  style="min-width:150px; max-width:295px" class="img-fluid" alt="logo" href="#">
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end me-5" id="navbarTogglerDemo02">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item px-2">
+              <a class="nav-link text-uppercase fs-5 fw-semibold text-light" href="#About-Us"><span><i class="fa-solid fa-paw text-light px-2"></i></span> Notre histoire</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-uppercase fs-5 fw-semibold text-light" data-bs-toggle="dropdown" href="#Services" role="button" aria-expanded="false"><span><i class="fa-solid fa-paw text-light px-2"></i></span> Nos services</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#contact">Trouver un refuge</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalAdoption">Adopter un animal</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalInformationsdon">Faire un don</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalAdoption">Devenir bénévole</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-uppercase fs-5 fw-semibold text-light" href="events.html"><span><i class="fa-solid fa-paw text-light px-2"></i></span> Evenements </a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link text-uppercase fs-5 fw-semibold text-light" href="#contact"><span><i class="fa-solid fa-paw text-light px-2"></i></span> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </section> 
+
+  <!-- LANDING PAGE PART 2 - CAROUSEL IMG -->  
+
+  <section id="carousel">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/carousel_IMG1_pexel.jpeg" class="d-block img-fluid w-100" style="max-height: 95vh" alt="chaton-pexel-img">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="images/carrousel_img2_pexel.png" class="d-block w-100 img-fluid w-100" style="max-height: 95vh" alt="filleetcheval">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="images/carrousel_img3_pexel.png" class="d-block w-100 img-fluid w-100" style="max-height: 95vh" alt="filleetchien">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="landingblockquote text-light text-center">
+          <h1><i class="bi bi-quote fs-2"></i> Les animaux ne sont pas des propriétés ou des choses, ce sont des êtres vivants qui méritent notre soutien, amitié et compassion. <i class="bi bi-quote fs-1"></i></h1>
+      </div>
+      <div class="landingPage-buttons text-center">
+        <button type="button"  class="btn bg-success fs-4 text-light btn-lg mx-3 my-3" data-bs-toggle="modal" data-bs-target="#modalInformationsdon">Faire un don
+          <i class="fa-solid fa-hand-holding-dollar px-2 fa-1x" ></i>
+        </button>
+        <button type="button"  class="btn bg-success fs-4 text-light btn-lg mx-3 my-3" data-bs-toggle="modal" data-bs-target="#modalAdoption">Adopter
+          <i class="fa-solid fa-house"></i>
+        </button> 
+      </div>  
+  </section>
 
 
 

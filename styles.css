@@ -1,2 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Qwitcher+Grypen:wght@400;700&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Qwitcher+Grypen:wght@400;700&family=Shadows+Into+Light&display=swap');
+
+/* SECTION 1- MAIN NAVBAR */ 
+
+.navbar {
+  box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+  -webkit-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+  -moz-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+}
+
+
+.nav-link:hover {
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+  border-radius: 25px;
+  box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+  -webkit-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+  -moz-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+}
+
+.landingblockquote {
+  font-family: 'Permanent Marker', cursive;
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+}
+
+/* SECTION 1 - BLOCKQUOTE POSITION CHANGING FROM MD SCREEN */ 
+
+
+@media screen and (min-width: 992px) {
+
+  .landingblockquote {
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    opacity: 0.5;
+    font-size: 2em;
+    z-index: 50;
+    }
+  
+  .landingPage-buttons {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    }
+  }
