@@ -48,3 +48,31 @@
     z-index: 99;
     }
   }
+
+/* SECTION 2 - ABOUT US - GENERAL LAYOUT */ 
+
+#About-Us {
+  padding-top: 250px;
+}
+
+#About-Us h2 {
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 1.8em;
+  letter-spacing: 6px;
+  word-spacing: 10px;
+  border-radius: 0px 0px 200px 0px;
+  border-radius: 200px 0px 200px 0px;
+  -webkit-border-radius: 200px 0px 200px 0px;
+  -moz-border-radius: 200px 0px 200px 0px;
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+}
+
+#About-Us span {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.right-side p {
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 3.5em;
+}
+
