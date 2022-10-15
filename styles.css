@@ -195,3 +195,42 @@
 .card-title {
   background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
 }
+
+/* SECTION 6 - SOCIAL MEDIA ICONS ANIMATION  */
+
+.social-media-title {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 8px;
+  word-spacing: 6px;
+}
+
+.social-icons a {
+  color: #3b3d42;
+}
+
+.social-icons a:hover {
+  transform: perspective(300px) rotateY(180deg);
+  transition: transform 0.2s linear, background-color 0s linear 0.1s, color 0s linear 0.1s;
+}
+
+.social-icons a:nth-child(1):hover {
+  color: white;
+  background-color: #3B5998;
+}
+.social-icons a:nth-child(2):hover {
+  color: white;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
+
+.social-icons a:nth-child(3):hover {
+  color: white;
+  background-color: #00ACED;
+}
+.social-icons a:nth-child(4):hover {
+  color: white;
+  background-color: rgb(0, 97, 146);
+}
