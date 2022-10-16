@@ -2,3 +2,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 
+
+/* SECTION 1- MAIN NAVBAR */ 
+
+.navbar {
+  box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+  -webkit-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+  -moz-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+}
+
+.nav-link:hover {
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+  border-radius: 25px;
+  box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+  -webkit-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+  -moz-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
+}
+
+/* ANIMATIONS LANDING PAGE SMALL SCREEN */ 
+
+.bg-img {
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+}
+
+
+.event-title-wavy {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.sliding-item-sm-screen{
+  font-size: 1.7em;
+  letter-spacing: 5px;
+  animation: slideDown1 5s forwards;
+}
+
+.icon-animated-sm {
+  bottom: 30px;
+  right: 50px;
+
+}
+
+@keyframes slideDown1 {
+  from {
+    transform: translateY(-70px);
+  }
+  to {
+    transform: translateY(70px);
+  }
+}
+
+
+/* ANIMATIONS LANDING PAGE ON LG AND XL SCREEN */ 
+
+@media screen and (min-width: 992px) {
+
+.sliding-item-lg-screen {
+  letter-spacing: 10px;
+  font-size: 3.2em;
+  animation: slideDown 5s forwards;
+}
+
+.fade-text {
+  right: 45px;
+  top: 230px;
+  opacity: 0;
+  font-size: 1.5em;
+  animation: showingUp 5s ease-in 2.5s forwards;
+}
+
+.icon-animated-lg {
+  bottom: 60px;
+  right: 120px;
+  font-size: 3.8em;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-80px);
+  }
+  to {
+    transform: translateY(140px);
+  }
+}
+
+@keyframes showingUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+}
