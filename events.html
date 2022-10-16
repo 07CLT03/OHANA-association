@@ -205,7 +205,152 @@
 
   </div>
 </div>  
-  
+
+
+
+
+<!-- PART 3 - PAGINATION --> 
+<div class="container-fluid">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination pagination-lg justify-content-center ">
+        <li class="page-item ">
+          <a class="page-link text-dark" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link text-dark" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+</div>
+
+
+<!-- PART 4 - QUOTE --> 
+<div class="container-lg text-center mt-5 py-5">
+    <h3 class="marker-police">Notre travail est possible grâce à vous ! </h3>
+    <div class="love-icons mt-5">
+      <i class="fa-regular fa-heart fa-beat fa-2x px-3" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i>
+      <i class="fa-solid fa-heart fa-beat fa-2x px-3" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i>
+      <i class="fa-regular fa-heart fa-beat fa-2x px-3" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i>
+    </div>
+  </div>
+</section>
+
+
+  <!-- MODAL/POP UP FORMULAIRE PARTICIPATION STRUCTURE -->  
+  <div class="modal fade" id="exampleModal"  aria-labelledby="exampleModalLabel" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Formulaire de participation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="validationDefault01" class="form-label">Prénom</label>
+              <input type="text" class="form-control" id="validationDefault01" required>
+            </div>
+            <div class="mb-3">
+              <label for="validationDefault02" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="validationDefault02" required>
+            </div>
+            <div class="mb-3">  
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  J'ai lu et j'accepte les conditions. 
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+          <button type="submit" class="btn btn-primary">Confirmer ma participation</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL/POP UP INFORMATIONS -->  
+  <div class="modal fade" id="modalInformations"  aria-labelledby="exampleModalLabel" aria-hidden="true" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Informations supplémentaires sur le projet</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repudiandae voluptatibus enim debitis rem reprehenderit consequatur quo. Odit sapiente dolorum fugit, obcaecati laborum sit dolorem deleniti explicabo vero atque accusamus in blanditiis veritatis nostrum rem nisi nam perferendis ducimus eaque distinctio porro, modi qui quas ut. <br><br> 
+                Esse labore necessitatibus voluptas explicabo magni, praesentium doloremque optio officia, voluptatibus nemo quidem omnis impedit assumenda, hic tempora vitae exercitationem temporibus ratione at ab expedita veritatis quaerat totam voluptate. Illo quis ratione minima? Quasi eveniet assumenda tenetur veritatis odit. Corrupti quo exercitationem error maxime veniam nulla, natus blanditiis quam repudiandae ea magnam unde repellendus aperiam delectus quasi provident distinctio! <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repudiandae voluptatibus enim debitis rem reprehenderit consequatur quo. Odit sapiente dolorum fugit, </p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- MODAL/POP UP FAIRE UN DON -->  
+  <div class="modal fade" id="modalInformationsdon"  aria-labelledby="exampleModalLabel" aria-hidden="true" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Comment faire un don ?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Vous trouverez ci-dessous les différentes possibilités pour faire un don à l'association. </p>
+                <ol>
+                  <li class="py-3">Par virement bancaire sur le compte de l'association : <br> <span class="fw-bold">BE XX XXX XXX XXX</span>  avec "don" en communication</li>
+                  <li class="py-3">Utiliser l'application de paiement en ligne <br>
+                    <img src="images/Visa_Logo_1992-700x447.png" style="width:40px" alt="visa-logo"> 
+                    <img src="images/PayPal_Logo_2014-700x693.png" style="width:40px" alt="paypal-logo">  
+                    <img src="images/bancontact_logo_before_after.png" style="width:70px" alt="bancontact-logo">
+                    <img src="images/Maestro-Logo-1996-500x333.png" style="width:65px" alt="maestro-logo">
+                  </li>
+                  <li class="py-3">Faire un don matériel dans l'un de nos refuges (nourriture, jouets, etc.) </li>
+                </ol>
+            </div>
+        </div>
+      </div>
+  </div>
+  <!-- MODAL/POP UP ADOPTION -->  
+  <div class="modal fade" id="modalAdoption"  aria-labelledby="exampleModalLabel" aria-hidden="true" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Adopter un animal dans le besoin.</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p> Cette page est actuellement en cours d'éditition, merci de revenir plus tard. </p>
+            </div>
+        </div>
+      </div>
+  </div>
+
+<!-- FOOTER -->  
+<section class="footer pt-5">
+  <div class="container-fluid  mt-5  py-md-2 bg-dark text-light position-relative">
+    <div class="arrow-up-icon bg-dark position-absolute">
+      <a href="#" class="Up-icon text-light position-absolute"><i class="bi bi-arrow-up-circle-fill fa-3x"></i></a>
+    </div>
+    <div class="footer-text d-md-flex justify-content-evenly pt-4 pt-md-0">
+      <p class="text-center">Site web réalisé avec <i class="bi bi-balloon-heart"></i> par<span class="signature px-3"> Charlotte Lafont</span></p> 
+      <p class="text-center pb-4 py-md-4"> Copyright © 2022 tous droits réservés - Ohana - Association | <a href="mentionlegale.html" target="_blank" class="text-light">Mentions Légales</a></p>
+    </div>
+  </div>
+</section>
   
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
