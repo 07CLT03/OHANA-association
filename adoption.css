@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Qwitcher+Grypen:wght@400;700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Qwitcher+Grypen:wght@400;700&family=Shadows+Into+Light&display=swap');
+
+
+.progress-page {
+  background-image: url(images/adoptionlandingpage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;  letter-spacing: 8px;
+}
+
+.btn {
+  border-radius: 75px;
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+}

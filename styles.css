@@ -291,6 +291,10 @@ a.nav-link {
   word-spacing: 6px;
 }
 
+.nav-link-adoption {
+  text-decoration: none;
+}
+
 /*  BUTTON UP */
 
 .arrow-up-icon{

@@ -33,9 +33,9 @@
               <a class="nav-link dropdown-toggle text-uppercase fw-semibold text-light" data-bs-toggle="dropdown" href="#Services" role="button" aria-expanded="false"><span><i class="fa-solid fa-paw text-light px-2"></i></span> Nos services</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#contact">Trouver un refuge</a></li>
-                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalAdoption">Adopter un animal</a></li>
+                <li><a class="dropdown-item" href="adoption.html" >Adopter un animal</a></li>
                 <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalInformationsdon">Faire un don</a></li>
-                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalAdoption">Devenir bénévole</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalBenevole">Devenir bénévole</a></li>
               </ul>
             </li>
             <li class="nav-item px-1">
@@ -184,7 +184,7 @@
           <div class="col-12 col-md-6 col-lg-5 col-xl-4 col-xxl-3 py-4">   
             <div class="card card-service-frame position-relative border-dark bg-dark" style="min-width:22rem; max-width:24rem;">
               <img src="images/cardpicture2.png" class="img-bg rounded"  alt="chatetchien">
-              <div class="btn-overlay bg-warning">
+              <div class="btn-overlay">
                 <button type="button" class="btn btn-transparant text-light fs-4">Découvrir</button>
               </div>  
               <div class="img-overlay">
@@ -197,7 +197,7 @@
           <div class="col-12 col-md-6 col-lg-5 col-xl-4 col-xxl-3 py-4">   
             <div class="card card-service-frame position-relative border-dark bg-dark" style="min-width:22rem; max-width:24rem;">
               <img src="images/cardpicture3.png" class="img-bg rounded" alt="cheval">
-              <div class="btn-overlay bg-warning">
+              <div class="btn-overlay">
                 <button type="button" class="btn btn-transparant text-light fs-4">Découvrir</button>
               </div>  
               <div class="img-overlay">
@@ -210,7 +210,7 @@
           <div class="col-12 col-md-6 col-lg-5 col-xl-4 col-xxl-3 py-4"> 
             <div class="card card-service-frame position-relative border-dark bg-dark" style="min-width:22rem; max-width:24rem;">
               <img src="images/cardpicture4.png" class="img-bg rounded" alt="chien">
-              <div class="btn-overlay bg-warning">
+              <div class="btn-overlay">
                 <button type="button" class="btn btn-transparant text-light fs-4">Découvrir</button>
               </div>  
               <div class="img-overlay">
@@ -426,8 +426,8 @@
           <button type="button"  class="btn bg-success fs-4 text-light btn-lg mx-3 my-3" data-bs-toggle="modal" data-bs-target="#modalInformationsdon">Faire un don
             <i class="fa-solid fa-hand-holding-dollar px-2 fa-1x" ></i>
           </button>
-          <button type="button"  class="btn bg-success fs-4 text-light btn-lg mx-3 my-3" data-bs-toggle="modal" data-bs-target="#modalAdoption">Adopter
-            <i class="fa-solid fa-house"></i>
+          <button type="button"  class="btn bg-success fs-4 text-light btn-lg mx-3 my-3">
+            <a href="adoption.html" target="_blank" class="nav-link-adoption text-light"> Adopter <i class="fa-solid fa-house"></i></a>
           </button>  
         </div>
       </div>
@@ -491,12 +491,12 @@
   </div>
 </div>
 
-<!-- MODAL/POP UP ADOPTION -->  
-<div class="modal fade" id="modalAdoption"  aria-labelledby="exampleModalLabel" aria-hidden="true" tabindex="-1">
+<!-- MODAL/POP UP BENEVOLE -->  
+<div class="modal fade" id="modalBenevole"  aria-labelledby="exampleModalLabel" aria-hidden="true" tabindex="-1">
   <div class="modal-dialog">
       <div class="modal-content">
           <div class="modal-header">
-              <h5 class="modal-title">Adopter un animal dans le besoin.</h5>
+              <h5 class="modal-title">Vous voulez rejoindre notre communauté ?</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
