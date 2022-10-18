@@ -9,9 +9,7 @@
   -moz-box-shadow: 14px 13px 21px -2px rgba(0,0,0,0.59);
 }
 
-a.nav-link {
-  font-size: 5em;
-}
+
 
 .nav-link:hover {
   background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
@@ -59,8 +57,9 @@ a.nav-link {
   @media screen and (min-width: 992px) {
  
     a.nav-link  {
-      font-size: 1.4em;
+      font-size: 1em;
     }
+
   
     .landingblockquote {
       font-size: 1.9em;
@@ -68,6 +67,14 @@ a.nav-link {
 
     .btn-landingpage {
       font-size: larger;
+    }
+    
+  }
+
+  @media screen and (min-width: 1300px) {
+ 
+    a.nav-link  {
+      font-size: 1.4em;
     }
     
   }
