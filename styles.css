@@ -35,8 +35,8 @@
   .landingblockquote {
     font-size: 1.5em;
     position: absolute;
-    width: 75%;
-    top: 50%;
+    width: 85%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 30px;
@@ -55,19 +55,37 @@
 
 
   @media screen and (min-width: 992px) {
+
+  .landingblockquote {
+      font-size: 1.5em;
+      position: absolute;
+      width: 80%;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 30px;
+      opacity: 0.6;
+      z-index: 50;
+  }
+
+  .landingPage-buttons {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 99;
+  }
  
-    a.nav-link  {
+  a.nav-link  {
       font-size: 1em;
-    }
+  }
 
   
-    .landingblockquote {
+  .landingblockquote {
       font-size: 1.9em;
-    }
+  }
 
-    .btn-landingpage {
-      font-size: larger;
-    }
+
     
   }
 
